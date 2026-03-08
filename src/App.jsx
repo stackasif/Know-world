@@ -42,11 +42,7 @@ import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
-
-  <RouterProvider router={router}>
-
-  </RouterProvider>  
-    
+      <RouterProvider router={router} />
   );
 }
 

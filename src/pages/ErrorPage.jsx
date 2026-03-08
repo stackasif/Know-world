@@ -17,8 +17,9 @@ function ErrorPage() {
         }
         
         <NavLink></NavLink>
+        
     </div>
   )
 }
 
-export default ErrorPage
+export default ErrorPage;

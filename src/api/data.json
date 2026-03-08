@@ -1,0 +1,345 @@
+[
+{
+"id":1,
+"name":"India",
+"capital":"New Delhi",
+"national_sport":"Hockey",
+"population":"1428000000",
+"interesting_facts":"India is the world's largest democracy.",
+"history":"India has one of the world's oldest civilizations beginning with the Indus Valley Civilization around 2500 BCE. Over centuries many empires including the Maurya, Gupta and Mughal Empires shaped the culture, religion and trade of the region. India became famous for advancements in mathematics, astronomy, medicine and philosophy. In the 18th century the British East India Company gradually took control which later turned into British colonial rule. During the early 20th century a powerful independence movement led by leaders such as Mahatma Gandhi promoted non-violent resistance. After a long struggle India gained independence in 1947 and became a democratic republic in 1950.",
+"tourism":"Taj Mahal, Jaipur, Kerala backwaters, Himalayas.",
+"image":"https://source.unsplash.com/600x400/?india"
+},
+
+{
+"id":2,
+"name":"United States",
+"capital":"Washington D.C.",
+"national_sport":"Baseball",
+"population":"331000000",
+"interesting_facts":"The US has the largest economy in the world.",
+"history":"The history of the United States began with Native American civilizations that lived across the continent for thousands of years. In the 17th century European settlers established colonies along the Atlantic coast, mainly under British control. Growing dissatisfaction with British taxation and governance led to the American Revolution. In 1776 the thirteen colonies declared independence forming the United States. The country expanded westward during the 19th century and faced the Civil War between 1861 and 1865 which ended slavery. During the 20th century the United States emerged as a global superpower after World War I and World War II influencing global politics, economy, science and popular culture.",
+"tourism":"Grand Canyon, Statue of Liberty, Yellowstone National Park.",
+"image":"https://source.unsplash.com/600x400/?usa"
+},
+
+{
+"id":3,
+"name":"China",
+"capital":"Beijing",
+"national_sport":"Table Tennis",
+"population":"1412000000",
+"interesting_facts":"China built the Great Wall which is thousands of kilometers long.",
+"history":"China is one of the oldest continuous civilizations in the world with recorded history of more than 4000 years. Early dynasties such as the Shang and Zhou laid the foundations of Chinese culture and philosophy including Confucianism and Taoism. Powerful dynasties such as the Qin, Han, Tang and Ming expanded trade and built great architectural projects including the Great Wall and the Forbidden City. In the 19th century China faced internal rebellions and foreign influence which weakened the Qing dynasty. After decades of revolution the People's Republic of China was established in 1949. Since the late 20th century China has rapidly grown into one of the largest economies in the world.",
+"tourism":"Great Wall, Forbidden City, Shanghai skyline.",
+"image":"https://source.unsplash.com/600x400/?china"
+},
+
+{
+"id":4,
+"name":"Japan",
+"capital":"Tokyo",
+"national_sport":"Sumo Wrestling",
+"population":"125000000",
+"interesting_facts":"Japan is famous for high speed bullet trains.",
+"history":"Japan's early history was shaped by small tribal communities that later formed powerful clans. By the 8th century the imperial court established a centralized government influenced by Chinese culture and Buddhism. Over time a feudal system emerged where military leaders called shoguns held real power while the emperor remained symbolic. Japan remained largely isolated for more than two centuries until the mid-19th century. The Meiji Restoration in 1868 transformed Japan into a modern industrial state. After its defeat in World War II Japan rebuilt rapidly and became a global leader in technology, manufacturing and innovation.",
+"tourism":"Mount Fuji, Kyoto temples, cherry blossom festivals.",
+"image":"https://source.unsplash.com/600x400/?japan"
+},
+
+{
+"id":5,
+"name":"France",
+"capital":"Paris",
+"national_sport":"Football",
+"population":"67000000",
+"interesting_facts":"France is the most visited country in the world.",
+"history":"France has played a central role in European history for many centuries. In ancient times the region was inhabited by Celtic tribes before becoming part of the Roman Empire. During the Middle Ages the Kingdom of France emerged as a powerful state. The French Revolution in 1789 dramatically changed the political system by overthrowing the monarchy and promoting ideas of liberty and equality. In the 19th century Napoleon Bonaparte expanded French influence across Europe. France later participated in both World War I and World War II and became one of the founding members of the European Union.",
+"tourism":"Eiffel Tower, Louvre Museum, French Riviera.",
+"image":"https://source.unsplash.com/600x400/?france"
+},
+
+{
+"id":6,
+"name":"Brazil",
+"capital":"Brasilia",
+"national_sport":"Football",
+"population":"214000000",
+"interesting_facts":"Brazil contains most of the Amazon rainforest.",
+"history":"Brazil was originally inhabited by indigenous peoples for thousands of years before Portuguese explorers arrived in 1500. The region became a major Portuguese colony where agriculture and trade flourished, particularly through sugar and coffee plantations. Brazil gained independence from Portugal in 1822 and initially became an empire before transitioning into a republic in 1889. During the 20th century Brazil experienced political changes including periods of military rule. In recent decades Brazil has grown into the largest economy in South America and an influential cultural center famous for music, football and festivals.",
+"tourism":"Rio de Janeiro, Amazon rainforest, Iguazu Falls.",
+"image":"https://source.unsplash.com/600x400/?brazil"
+},
+
+{
+"id":7,
+"name":"United Kingdom",
+"capital":"London",
+"national_sport":"Cricket",
+"population":"67000000",
+"interesting_facts":"The UK was the center of the Industrial Revolution.",
+"history":"The United Kingdom has a long and complex history shaped by the kingdoms of England, Scotland, Wales and Ireland. Roman forces occupied parts of Britain for centuries before the Anglo-Saxon kingdoms emerged. After the Norman Conquest in 1066 England developed strong political institutions including Parliament. During the 18th and 19th centuries the Industrial Revolution began in Britain transforming industry and global trade. The British Empire later expanded to become the largest empire in history. After World War II many colonies gained independence but the UK remains an important global political, financial and cultural center.",
+"tourism":"Big Ben, Buckingham Palace, Stonehenge.",
+"image":"https://source.unsplash.com/600x400/?london"
+},
+
+{
+"id":8,
+"name":"Australia",
+"capital":"Canberra",
+"national_sport":"Cricket",
+"population":"26000000",
+"interesting_facts":"Australia has unique wildlife such as kangaroos and koalas.",
+"history":"Australia was inhabited by Aboriginal peoples for more than 60,000 years before European exploration. In 1770 British explorer James Cook claimed the eastern coast for Britain and the first British colony was established in 1788. Over time several colonies formed across the continent. These colonies united in 1901 to create the Commonwealth of Australia. Throughout the 20th century Australia developed into a prosperous nation with strong democratic institutions and a multicultural society. Today Australia plays an important role in global trade, education and tourism.",
+"tourism":"Sydney Opera House, Great Barrier Reef, Uluru.",
+"image":"https://source.unsplash.com/600x400/?australia"
+},
+
+{
+"id":9,
+"name":"Germany",
+"capital":"Berlin",
+"national_sport":"Football",
+"population":"83000000",
+"interesting_facts":"Germany has the largest economy in Europe.",
+"history":"Germany's history includes powerful medieval kingdoms and later the Holy Roman Empire which influenced much of central Europe. In the 19th century Otto von Bismarck unified various German states into a single nation in 1871. Germany later played major roles in both World War I and World War II. After World War II the country was divided into East Germany and West Germany during the Cold War. In 1990 the two sides reunited forming modern Germany which today is a leading economic and political power within the European Union.",
+"tourism":"Brandenburg Gate, Bavarian Alps, Berlin Wall memorial.",
+"image":"https://source.unsplash.com/600x400/?germany"
+},
+
+{
+"id":10,
+"name":"Italy",
+"capital":"Rome",
+"national_sport":"Football",
+"population":"59000000",
+"interesting_facts":"Italy was the center of the Roman Empire.",
+"history":"Italy has a long history beginning with ancient civilizations including the Etruscans and the Roman Empire. Rome became one of the most powerful empires in history influencing law, architecture and government across Europe and beyond. After the fall of the Roman Empire Italy was divided into various city states. During the Renaissance cities such as Florence and Venice became centers of art, science and culture. Italy was unified as a nation in 1861 and later became a republic after World War II. Today Italy is famous for its culture, cuisine and historical heritage.",
+"tourism":"Colosseum, Venice canals, Leaning Tower of Pisa.",
+"image":"https://source.unsplash.com/600x400/?italy"
+},
+
+{
+"id":11,"name":"Canada","capital":"Ottawa","national_sport":"Ice Hockey","population":"38000000","interesting_facts":"Canada is the second largest country in the world by area.","history":"Canada was originally inhabited by diverse indigenous cultures for thousands of years before European explorers arrived. French and British settlers established colonies during the 16th and 17th centuries leading to conflicts for control of the territory. Britain eventually gained control and Canada gradually moved toward self-government. In 1867 the Canadian Confederation was formed uniting several provinces into one country. Over time Canada developed into a stable democracy with a strong economy and multicultural society while maintaining close relations with both Britain and the United States.","tourism":"Niagara Falls, Banff National Park.","image":"https://source.unsplash.com/600x400/?canada"},
+
+{
+"id":12,"name":"Russia","capital":"Moscow","national_sport":"Ice Hockey","population":"144000000","interesting_facts":"Russia is the largest country in the world.","history":"Russia began as a group of Slavic states known as Kievan Rus in the medieval period. Over time Moscow became the center of power and expanded into a vast empire under the Romanov dynasty. In 1917 the Russian Revolution overthrew the monarchy and established the Soviet Union. The Soviet Union became a global superpower during the Cold War competing with the United States. In 1991 the Soviet Union collapsed and modern Russia emerged as an independent country with significant political and economic influence.","tourism":"Red Square, Saint Basil Cathedral.","image":"https://source.unsplash.com/600x400/?russia"},
+
+{
+"id":13,
+"name":"South Korea",
+"capital":"Seoul",
+"national_sport":"Taekwondo",
+"population":"52000000",
+"interesting_facts":"South Korea is famous for K-pop, technology companies and high-speed internet.",
+"history":"The Korean peninsula has a long history with ancient kingdoms such as Goguryeo, Baekje and Silla which shaped early Korean culture and identity. In the early 20th century Korea was annexed by Japan and remained under Japanese rule until the end of World War II in 1945. After the war the peninsula was divided into North and South Korea which later led to the Korean War from 1950 to 1953. South Korea rebuilt rapidly during the late 20th century and transformed into one of Asia’s most advanced economies with strong industries in electronics, automobiles and global entertainment.",
+"tourism":"Gyeongbokgung Palace, Jeju Island, Seoul Tower.",
+"image":"https://source.unsplash.com/600x400/?seoul"
+},
+
+{
+"id":14,
+"name":"Spain",
+"capital":"Madrid",
+"national_sport":"Football",
+"population":"47000000",
+"interesting_facts":"Spain is known for flamenco music and vibrant festivals.",
+"history":"Spain has a rich history influenced by many civilizations including the Romans, Visigoths and Moors. During the medieval period Muslim rulers controlled large parts of the Iberian Peninsula until Christian kingdoms gradually reconquered the territory. In the 15th and 16th centuries Spain became one of the most powerful empires in the world after the voyages of explorers like Christopher Columbus. Spain later experienced political turmoil including civil war in the 20th century. Today Spain is a democratic country and an important member of the European Union with strong cultural influence worldwide.",
+"tourism":"Barcelona, Sagrada Familia, Ibiza beaches.",
+"image":"https://source.unsplash.com/600x400/?spain"
+},
+
+{
+"id":15,
+"name":"Mexico",
+"capital":"Mexico City",
+"national_sport":"Football",
+"population":"126000000",
+"interesting_facts":"Mexico has ancient Mayan and Aztec heritage.",
+"history":"Mexico's history began with ancient civilizations such as the Maya and the Aztec who built advanced cities, temples and systems of governance. In the 16th century Spanish conquistadors led by Hernán Cortés conquered the Aztec Empire and Mexico became a Spanish colony for nearly three centuries. Mexico gained independence from Spain in 1821 and later experienced political reforms and revolutions that shaped its modern government. Today Mexico is one of the largest economies in Latin America and is known for its rich culture, cuisine and historical heritage.",
+"tourism":"Chichen Itza, Cancun beaches, Mexico City.",
+"image":"https://source.unsplash.com/600x400/?mexico"
+},
+
+{
+"id":16,
+"name":"Indonesia",
+"capital":"Jakarta",
+"national_sport":"Badminton",
+"population":"276000000",
+"interesting_facts":"Indonesia is the largest island nation in the world.",
+"history":"Indonesia consists of thousands of islands and has been an important center of trade for centuries connecting Asia and the Middle East. Ancient kingdoms such as Srivijaya and Majapahit dominated regional trade and culture. In the 17th century the Dutch established colonial control over the islands and ruled the region for more than 300 years. During World War II Japan occupied Indonesia which encouraged nationalist movements. After the war Indonesia declared independence in 1945 and eventually became a large democratic nation with a rapidly growing economy and diverse cultural heritage.",
+"tourism":"Bali beaches, Borobudur Temple, Komodo Island.",
+"image":"https://source.unsplash.com/600x400/?indonesia"
+},
+
+{
+"id":17,
+"name":"Turkey",
+"capital":"Ankara",
+"national_sport":"Oil Wrestling",
+"population":"85000000",
+"interesting_facts":"Turkey sits between Europe and Asia.",
+"history":"Turkey’s history includes some of the most important civilizations of the ancient world including the Greeks, Romans and Byzantines. The city of Constantinople was once the capital of the Byzantine Empire and a major center of trade and culture. In the 15th century the Ottoman Empire captured the city and ruled a vast territory across Europe, Asia and Africa for centuries. After World War I the Ottoman Empire collapsed and modern Turkey was established in 1923 under the leadership of Mustafa Kemal Atatürk who introduced major political and social reforms.",
+"tourism":"Hagia Sophia, Cappadocia, Pamukkale.",
+"image":"https://source.unsplash.com/600x400/?turkey"
+},
+
+{
+"id":18,
+"name":"Saudi Arabia",
+"capital":"Riyadh",
+"national_sport":"Football",
+"population":"36000000",
+"interesting_facts":"Saudi Arabia holds the world's largest oil reserves.",
+"history":"Saudi Arabia is located on the Arabian Peninsula and has been an important center of Islamic history for more than fourteen centuries. The cities of Mecca and Medina are the holiest places in Islam and attract millions of pilgrims every year. In the early 20th century Abdulaziz Ibn Saud unified different tribal regions and founded the Kingdom of Saudi Arabia in 1932. The discovery of oil soon after transformed the country into one of the wealthiest nations in the Middle East and a major player in global energy markets.",
+"tourism":"Mecca, Medina, AlUla desert sites.",
+"image":"https://source.unsplash.com/600x400/?saudi-arabia"
+},
+
+{
+"id":19,
+"name":"South Africa",
+"capital":"Pretoria",
+"national_sport":"Rugby",
+"population":"60000000",
+"interesting_facts":"South Africa has 11 official languages.",
+"history":"South Africa's history includes ancient African civilizations followed by European settlement beginning with Dutch colonists in the 17th century. The region later came under British control which led to conflicts between settlers and local populations. In the 20th century South Africa introduced apartheid, a system of racial segregation that lasted for decades. International pressure and internal resistance eventually ended apartheid in 1994 leading to the country's first democratic elections and the presidency of Nelson Mandela.",
+"tourism":"Cape Town, Table Mountain, Kruger National Park.",
+"image":"https://source.unsplash.com/600x400/?south-africa"
+},
+
+{
+"id":20,
+"name":"Argentina",
+"capital":"Buenos Aires",
+"national_sport":"Pato",
+"population":"46000000",
+"interesting_facts":"Argentina is famous for tango and football legends.",
+"history":"Argentina was originally inhabited by indigenous groups before Spanish explorers arrived in the 16th century. The region became part of the Spanish Empire and developed strong agricultural and trading communities. Argentina declared independence from Spain in 1816 and later developed into one of South America's most influential nations. Throughout the 20th century the country experienced periods of political instability and military rule but eventually returned to democratic governance. Today Argentina has a strong cultural identity shaped by European immigration and Latin American traditions.",
+"tourism":"Patagonia, Iguazu Falls, Buenos Aires.",
+"image":"https://source.unsplash.com/600x400/?argentina"
+},
+
+{
+"id":21,
+"name":"Egypt",
+"capital":"Cairo",
+"national_sport":"Football",
+"population":"110000000",
+"interesting_facts":"Egypt is home to the ancient pyramids.",
+"history":"Egypt is one of the oldest civilizations in human history with records dating back more than 5000 years. Ancient Egyptians built monumental structures such as the pyramids and developed complex systems of writing, religion and governance. After centuries of rule by different empires including the Greeks, Romans and Ottomans, Egypt eventually gained independence in the 20th century. Today Egypt remains culturally and historically significant and continues to influence the Middle East and North Africa.",
+"tourism":"Pyramids of Giza, Nile River, Luxor temples.",
+"image":"https://source.unsplash.com/600x400/?egypt"
+},
+
+{
+"id":22,
+"name":"Thailand",
+"capital":"Bangkok",
+"national_sport":"Muay Thai",
+"population":"70000000",
+"interesting_facts":"Thailand was never colonized by European powers.",
+"history":"Thailand, formerly known as Siam, has a long history of powerful kingdoms such as Sukhothai and Ayutthaya that developed rich cultural traditions and trade networks. Unlike many countries in Southeast Asia Thailand managed to remain independent during the era of European colonial expansion by carefully balancing diplomatic relations. In the 20th century Thailand transitioned from absolute monarchy to constitutional monarchy. Today Thailand is known for its cultural heritage, tourism industry and dynamic economy.",
+"tourism":"Phuket beaches, Grand Palace, Chiang Mai temples.",
+"image":"https://source.unsplash.com/600x400/?thailand"
+},
+
+{
+"id":23,
+"name":"Netherlands",
+"capital":"Amsterdam",
+"national_sport":"Football",
+"population":"17000000",
+"interesting_facts":"The Netherlands is famous for windmills and canals.",
+"history":"The Netherlands became a powerful maritime nation during the 17th century known as the Dutch Golden Age. During this time Dutch traders dominated global commerce and established colonies across the world. The country also became a center of art and science with famous painters such as Rembrandt and Vermeer. Over time the Netherlands developed into a modern democratic nation known for its progressive policies, strong economy and international trade influence.",
+"tourism":"Amsterdam canals, tulip fields, windmills.",
+"image":"https://source.unsplash.com/600x400/?netherlands"
+},
+
+{
+"id":24,
+"name":"Switzerland",
+"capital":"Bern",
+"national_sport":"Skiing",
+"population":"8700000",
+"interesting_facts":"Switzerland is famous for neutrality and banking.",
+"history":"Switzerland's origins date back to a confederation of alpine communities formed in the late 13th century. Over time the Swiss Confederation expanded and developed a strong tradition of local autonomy and democracy. Switzerland remained neutral during major European conflicts including both World Wars which strengthened its reputation as a peaceful nation. Today Switzerland is known for its strong economy, political stability and international diplomacy.",
+"tourism":"Swiss Alps, Lake Geneva, Zermatt.",
+"image":"https://source.unsplash.com/600x400/?switzerland"
+},
+
+{
+"id":25,
+"name":"Sweden",
+"capital":"Stockholm",
+"national_sport":"Ice Hockey",
+"population":"10500000",
+"interesting_facts":"Sweden consistently ranks high in quality of life.",
+"history":"Sweden has a long history beginning with Viking explorers who traveled widely across Europe and beyond. During the 17th century Sweden became a powerful kingdom controlling large territories around the Baltic Sea. In the modern era Sweden transformed into a stable democracy with a strong welfare system and advanced technology industries. Sweden is now known for innovation, sustainability and cultural influence.",
+"tourism":"Stockholm archipelago, northern lights.",
+"image":"https://source.unsplash.com/600x400/?sweden"
+},
+
+{
+"id":26,
+"name":"Norway",
+"capital":"Oslo",
+"national_sport":"Cross Country Skiing",
+"population":"5400000",
+"interesting_facts":"Norway is famous for dramatic fjords.",
+"history":"Norway's early history is closely connected with the Vikings who explored and traded across Europe and the Atlantic. Over time Norway entered political unions with Denmark and later Sweden before becoming fully independent in 1905. In the modern era Norway developed a strong economy supported by natural resources such as oil and gas. The country is now known for its high living standards, social welfare system and commitment to environmental sustainability.",
+"tourism":"Geirangerfjord, northern lights.",
+"image":"https://source.unsplash.com/600x400/?norway"
+},
+
+{
+"id":27,
+"name":"Greece",
+"capital":"Athens",
+"national_sport":"Football",
+"population":"10400000",
+"interesting_facts":"Greece is the birthplace of democracy and the Olympic Games.",
+"history":"Ancient Greece played a fundamental role in shaping Western civilization through philosophy, politics, science and art. City states such as Athens and Sparta dominated the region during the classical period. Greece later became part of the Roman and Byzantine Empires before falling under Ottoman rule for several centuries. In the 19th century Greece gained independence and established a modern nation state. Today Greece remains culturally significant and historically influential.",
+"tourism":"Acropolis, Santorini, Mykonos.",
+"image":"https://source.unsplash.com/600x400/?greece"
+},
+
+{
+"id":28,
+"name":"New Zealand",
+"capital":"Wellington",
+"national_sport":"Rugby",
+"population":"5200000",
+"interesting_facts":"New Zealand is known for dramatic landscapes.",
+"history":"New Zealand was first settled by the Maori people who developed a rich culture and strong tribal society. In the 19th century British settlers arrived and established colonies across the islands. The Treaty of Waitangi in 1840 created an agreement between Maori leaders and the British Crown. Over time New Zealand developed into an independent democratic nation known for progressive policies and environmental conservation.",
+"tourism":"Milford Sound, Hobbiton, Queenstown.",
+"image":"https://source.unsplash.com/600x400/?new-zealand"
+},
+
+{
+"id":29,
+"name":"Singapore",
+"capital":"Singapore",
+"national_sport":"Table Tennis",
+"population":"5900000",
+"interesting_facts":"Singapore is one of the cleanest and most modern cities in the world.",
+"history":"Singapore began as a small trading port but grew rapidly due to its strategic location along major shipping routes. In the 19th century it became an important British colonial trading center connecting Asia and Europe. After a brief union with Malaysia Singapore became an independent country in 1965. Through strong leadership and economic planning Singapore transformed into one of the world's leading financial and technological hubs.",
+"tourism":"Marina Bay Sands, Gardens by the Bay.",
+"image":"https://source.unsplash.com/600x400/?singapore"
+},
+
+{
+"id":30,
+"name":"Malaysia",
+"capital":"Kuala Lumpur",
+"national_sport":"Badminton",
+"population":"33000000",
+"interesting_facts":"Malaysia is known for tropical rainforests and cultural diversity.",
+"history":"Malaysia's history includes ancient trading kingdoms that connected China, India and the Middle East through maritime commerce. The region later became part of European colonial networks including Portuguese, Dutch and British rule. Malaysia gained independence from Britain in 1957 and later formed a federation including several states across the Malay Peninsula and Borneo. Today Malaysia is a rapidly developing nation with a diverse culture influenced by Malay, Chinese and Indian traditions.",
+"tourism":"Petronas Towers, Langkawi islands.",
+"image":"https://source.unsplash.com/600x400/?malaysia"
+}
+
+
+]

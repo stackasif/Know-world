@@ -26,7 +26,7 @@ function Hero() {
           </div>
 
           <div className='w-full md:w-1/2 flex justify-center order-1 md:order-2'>
-            <img className='w-[300px] md:w-[450px] lg:w-[550px]' src="map.jpg" alt="map" />
+            <img className='w-[300px] md:w-[450px] lg:w-[550px]' src="map.avif" alt="map" />
           </div>
 
       </div>

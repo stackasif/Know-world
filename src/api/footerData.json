@@ -1,0 +1,20 @@
+[
+    {   
+        "id" : 1,
+        "icon" : "FaLaptopHouse",
+        "title" : "Find me",
+        "details" : "Gorakhpur, IN"
+    },
+     {
+        "id" : 2,
+        "icon" : "MdAddIcCall",
+        "title" : "Call me",
+        "details" : "+91 8528859830"
+    },
+     {
+        "id" : 3,
+        "icon" : "MdMail",
+        "title" : "Mail me",
+        "details" : "stackasif@gmail.com"
+    }
+]

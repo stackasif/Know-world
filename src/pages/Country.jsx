@@ -23,9 +23,10 @@ function Country() {
 
 
   return (
-    <>
-    <h1 className='text-white'>Country page</h1>
-    </>
+    <div className='min-h-[400px]'>
+    <h1 className='text-white'> Lund le le mera Madhrchod.🍌🍌</h1>
+    <p>AB hass le bhosdk😏</p>
+    </div>
     
   )
 }

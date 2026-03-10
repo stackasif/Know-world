@@ -18,7 +18,7 @@ function Footer() {
      {footerData.map((data,ind)=>{
       let {icon,title,details,id}= data
       return (
-          <div className='flex flex-wrap flex-col md:flex-row justify-center md:justify-start items-center text-center md:text-start gap-3'>
+          <div key={ind} className='flex flex-wrap flex-col md:flex-row justify-center md:justify-start items-center text-center md:text-start gap-3'>
               <div className=''>
                   <span className='text-2xl font-bold'>{footerIcon[icon]}</span>
               </div>

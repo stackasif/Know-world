@@ -24,8 +24,8 @@ function Country() {
 
   return (
     <div className='min-h-[400px]'>
-    <h1 className='text-white'> Lund le le mera Madhrchod.🍌🍌</h1>
-    <p>AB hass le bhosdk😏</p>
+    <h1 className='text-white text-center'> Lund le le mera Madhrchod.🍌🍌</h1>
+    <p className='text-white text-center'>AB hass le bhosdk😏</p>
     </div>
     
   )

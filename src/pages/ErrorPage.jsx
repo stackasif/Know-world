@@ -16,7 +16,7 @@ function ErrorPage() {
         error && <p>{error.data}</p>
         }
         
-        <NavLink></NavLink>
+        
         
     </div>
   )

@@ -7,7 +7,7 @@ const api =axios.create({
 // get method
 
 export const getMethod=()=>{
-    return api.get("/all?fields=name,capital,currencies")
+    return api.get("/all?fields=name,capital,currencies,flags,region,population")
 }
 
 

@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Country from "./pages/Country";
 import India from "./pages/India";
 import ErrorPage from "./pages/ErrorPage";
+import CountryDetail from "./components/ui/CountryDetail";
 
 
   const router = createBrowserRouter([
@@ -30,6 +31,10 @@ import ErrorPage from "./pages/ErrorPage";
           {
             path:"/country",
             element:<Country />,
+          },
+          {
+            path:"/country/:name",
+            element:<CountryDetail />,
           },
           {
             path:"/india",

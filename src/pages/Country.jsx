@@ -33,18 +33,11 @@ function Country() {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6 ">
           
-                  {countryData.map((item,ind) => {
-                    // console.log(item);
+                  {countryData.slice(0,20).map((item,ind) => {
+                    
                     
                     const { id, name,region, capital, population, interesting_facts,flags } = item;
-                    // console.log(name);
-                    
-
-                    //  const name = item.name?.common;         
-          // const capital = item.capital?.[0];      
-          // const population = item.population;
-          // const region = item.region;
-          
+              
                     return (
                       <div key={ind} className="w-full max-w-[350px] bg-neutral-800 text-white border border-neutral-700 rounded-xl p-3 shadow-md 
                                     hover:-translate-y-2 hover:shadow-2xl transition duration-300">
@@ -72,3 +65,4 @@ function Country() {
 }
 
 export default Country;
+

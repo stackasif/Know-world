@@ -13,7 +13,7 @@ export const getMethod=()=>{
 // get indivdual method
 
 export const getIndividualMethod=(name)=>{
-    return api.get(`/name/${name}?fullText=true&fields=name,population,region,subregion,capital,tld,currencies,launguages,borders,flags`)
+    return api.get(`/name/${name}?fullText=true&fields=name,population,region,subregion,capital,tld,currencies,languages,borders,flags`)
 }
 
 

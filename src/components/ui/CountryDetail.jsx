@@ -39,14 +39,14 @@ function CountryDetail() {
    
   return (
     <div>
-      <div className='grid grid-cols-2'>
-          <div className='flex justify-center items-center my-28'>
-            <div className=' w-[500px] h-auto '>
+      <div className='grid grid-cols-1 md:grid-cols-2  items-center'>
+          <div className='flex justify-center items-center my-10 md:my-28'>
+            <div className=' w-[300px] md:w-[500px] h-auto '>
               <img src={country?.flags?.svg}/>
             </div>
           </div>
           <div>
-            <div>
+            <div className='flex flex-col gap-3 px-6 py-2'>
               <h1 className='text-2xl font-semibold text-white'>{country?.name?.common}</h1>
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Native name :</span>{Object.values(country?.name?.nativeName || {}).slice(0,5).map((n )=> n.common).join(", ")}</p>
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Official name : </span>{country?.name?.official}</p>
@@ -55,9 +55,10 @@ function CountryDetail() {
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Sub Region : </span>{country?.subregion}</p>
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Population : </span>{country?.population}</p>
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Top domain : </span>{country?.tld}</p>
-              <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Top domain : </span>{Object.values(country.currencies)
-    .map(c => c.name)
-    .join(", ")}</p>
+              <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Currency : </span>{Object.values(country?.currencies || {})[0]?.name}</p>
+               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Languages : </span>{Object.values(country?.languages || {}).join(", ") + "."}</p>
+              
+              
              
             
             </div>

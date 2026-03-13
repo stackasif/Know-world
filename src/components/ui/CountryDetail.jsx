@@ -1,7 +1,11 @@
 import React, { useEffect, useTransition } from 'react'
 import { useState } from 'react';
 import { useParams } from 'react-router-dom'
+
 import { getIndividualMethod } from '../../api/ApiData';
+import {NavLink} from 'react-router-dom'
+import { IoMdArrowRoundBack } from "react-icons/io";
+
 import Loader from './Loader';
 
 function CountryDetail() {
@@ -39,8 +43,19 @@ function CountryDetail() {
    
   return (
     <div>
+      <div className='p-3'>
+        <NavLink to="/country" className="w-fit  bg-gray-500 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded-full flex items-center gap-2">
+         <IoMdArrowRoundBack />
+          Back
+        </NavLink>
+      </div>
+
       <div className='grid grid-cols-1 md:grid-cols-2  items-center'>
-          <div className='flex justify-center items-center my-10 md:my-28'>
+         {/* {country && (
+          <> */}
+
+
+             <div className='flex justify-center items-center my-10 md:my-28'>
             <div className=' w-[300px] md:w-[500px] h-auto '>
               <img src={country?.flags?.svg}/>
             </div>
@@ -53,17 +68,20 @@ function CountryDetail() {
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Capital: </span>{country?.capital}</p>
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Region : </span>{country?.region}</p>
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Sub Region : </span>{country?.subregion}</p>
-              <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Population : </span>{country?.population}</p>
+              <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Population : </span>{country?.population.toLocaleString()}</p>
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Top domain : </span>{country?.tld}</p>
               <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Currency : </span>{Object.values(country?.currencies || {})[0]?.name}</p>
                <p className='text-sm  text-white'><span className='text-sm font-semibold text-gray-300'>Languages : </span>{Object.values(country?.languages || {}).join(", ") + "."}</p>
               
-              
-             
-            
+
             </div>
-          </div>
+          </div> :
+
+
+          {/* </>
+          )} */}
       </div>
+      
     </div>
   )
 }

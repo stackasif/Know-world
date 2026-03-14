@@ -2,20 +2,29 @@ import React, { useEffect, useState, useTransition } from 'react'
 import { getMethod } from '../api/ApiData'
 import Loader from '../components/ui/Loader'
 import { NavLink } from 'react-router-dom'
+import SearchData from '../components/ui/SearchData'
 
 function Country() {
 
    const [isPending, startTransition]= useTransition()
    const [countryData,setCountryData]=useState([])
+ 
+   const [search,setSearch]=useState();
+   const [filter,setFilter]=useState("all");
+
+   console.log(search,filter);
    
+
    
    
     useEffect(()=>{
       startTransition(async()=>{
            let response = await getMethod()
+
         // console.log(response);
         // console.log(response.data);
         //  const data = Array.isArray(response.data) ? response.data : []
+        
     setCountryData(response.data)
       })
     },[])
@@ -29,11 +38,34 @@ function Country() {
     }
 
 
+    // console.log(countryData.name.common);
+    
+   const searchData = (data) => {
+  if (search) {
+    return data.name.common.toLowerCase().includes(search.toLowerCase())
+  }
+  return true
+}
+
+const filterData = (data) => {
+  if (filter === "all") {
+    return true
+  } else {
+    return data.region === filter
+  }
+}
+
+
+
+    let newCountry= countryData.filter((data)=> searchData(data)  &&  filterData(data) )
+
   return (
     <div>
+      <SearchData search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} />
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6 ">
           
-                  {countryData.slice(0,20).map((item,ind) => {
+                  {newCountry.slice(0,20).map((item,ind) => {
                     
                     
                     const { id, name,region, capital, population, interesting_facts,flags } = item;

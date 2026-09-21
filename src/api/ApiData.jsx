@@ -1,19 +1,15 @@
 import axios from "axios";
 
-const api =axios.create({
-    baseURL:"https://restcountries.com/v3.1",
-})
+const api = axios.create({
+  baseURL: "https://countries.dev",
+});
 
-// get method
+// get all
+export const getMethod = () => {
+  return api.get("/all?fields=name,capital,currencies,flags,region,population");
+};
 
-export const getMethod=()=>{
-    return api.get("/all?fields=name,capital,currencies,flags,region,population")
-}
-
-// get indivdual method
-
-export const getIndividualMethod=(name)=>{
-    return api.get(`/name/${name}?fullText=true&fields=name,population,region,subregion,capital,tld,currencies,languages,borders,flags`)
-}
-
-
+// get individual
+export const getIndividualMethod = (name) => {
+  return api.get(`/name/${name}?fullText=true&fields=name,population,region,subregion,capital,tld,currencies,languages,borders,flags`);
+};
